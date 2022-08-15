@@ -1,41 +1,67 @@
 
-# ASP.NET Core Securing your APIs
+# ASP.NET Core Securing APIs
+
+- Delegated APIs (UI authentication)
+- Application APIs (no user)
+- On behalf of flow
+- Microsoft Identity Platform CAE APIs
+- Mixing auth, no auth APIs in an application
+- Swagger auth
+- Using multiple IDPs in an API service
+- Mixing UIs and APIs in an application
+- Using certificates to protect APIs
+- Legacy, unsecure flows
 
 ## Delegated APIs (UI authentication)
 
-	- API security using cookies
-	  - BFF
-	  - Reverse proxy
 	- API security using JWT access tokens
-	  - no logout possible
+	  - No logout possible
 	- API security using introspection
-	  - logout with the revocation endpoint
+	  - Logout with the revocation endpoint
+	- API security using cookies
+	  - BFF Backend for frontend
+	  - Reverse proxy
   
 ## Application APIs (no user)
 
 	- OAuth2 client credentials flow
-	- Micosoft Identity using application tokens
+	- Microsoft Identity using application tokens
 	  - secrets
-	  - client assertions
+	  - certificates with client assertions
 	- Microsoft Identity Platform using Managed Identities
 
 ## On behalf of flow
   
     - Microsoft Identity Platform
 	
-## Microsoft Identity Platform CAE
+## Microsoft Identity Platform CAE APIs
 
 	- Step up using CAE
-	- Graph CAE
+	- Graph / Office CAE
 
-## Legacy
+## Mixing auth, no auth APIs in an application
+
+## Swagger auth
+
+## Using multiple IDPs in an API service
+
+    - Schemes
+	- Policies
+
+## Mixing UIs and APIs in an application
+
+    - Schemes
+	
+## Using certificates to protect APIs
+  
+    - using a client/server certificates
+	- mtls and the access token
+	
+## Legacy, unsecure flows
 	
 - What about SAS?
-- What about username, password?
+- What about username & password to get an access token?
 
-# SPAs
-
-[flows](https://github.com/damienbod/aspnetcore-standup-authn-authz/blob/main/images/spa%20flows.md)
 
 # Protecting APIs
 
@@ -43,6 +69,9 @@
 - [Introspection](https://github.com/damienbod/aspnetcore-standup-authn-authz/blob/main/images/api_introspection.md)
 - Cookies
 - User access tokens versus application access tokens 
+
+
+
 
 # Examples identity provider clients:
 
