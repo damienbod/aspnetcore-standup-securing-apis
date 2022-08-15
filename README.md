@@ -1,7 +1,7 @@
 
 # ASP.NET Core Securing your APIs
 
-- Delegated APIs (UI authentication)
+## Delegated APIs (UI authentication)
 
 	- API security using cookies
 	  - BFF
@@ -11,7 +11,7 @@
 	- API security using introspection
 	  - logout with the revocation endpoint
   
-- Application APIs (no user)
+## Application APIs (no user)
 
 	- OAuth2 client credentials flow
 	- Micosoft Identity using application tokens
@@ -19,21 +19,19 @@
 	  - client assertions
 	- Microsoft Identity Platform using Managed Identities
 
-- On behalf of flow
+## On behalf of flow
   
     - Microsoft Identity Platform
 	
-- Microsoft Identity Platform CAE
+## Microsoft Identity Platform CAE
 
 	- Step up using CAE
 	- Graph CAE
+
+## Legacy
 	
 - What about SAS?
 - What about username, password?
-
-# Authentication Flows
-
-- [OpenID Connect Code flow + PKCE with client secret confidential client](https://github.com/damienbod/aspnetcore-standup-authn-authz/blob/main/images/OIDC%20Code%20flow.md
 
 # SPAs
 
