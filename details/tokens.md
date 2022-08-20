@@ -1,4 +1,4 @@
-# id_tokens, access_tokens, refresh tokens
+# id tokens, access tokens, refresh tokens
 
 # Standards
 
@@ -37,11 +37,9 @@
 - On AAD, use CAE for azure services if possible
 - avoid SPAs on Azure due to full logout is required
 
-RFC 9068 JWT Profile for OAuth 2.0 Access tokens
-
 ## claims
 
-	"typ": "at+jwt"
+	"typ": "at+jwt" // RFC 9068 JWT Profile for OAuth 2.0 Access tokens
 
 	iss, aud, sub, exp, iat, jti, client_id
 

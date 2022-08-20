@@ -19,6 +19,8 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 # Protecting APIs Authorization Overview
 
+[About tokens](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/tokens.md)
+
 - JWT Bearer Tokens
 - [Introspection (Stateful)](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/api_introspection.md)
 - [Cookies](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/api_cookies.md)
