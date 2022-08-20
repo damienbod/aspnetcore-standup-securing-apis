@@ -21,7 +21,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 - JWT Bearer Tokens
 - [Introspection (Stateful)](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/api_introspection.md)
-- Cookies
+- [Cookies](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/api_cookies.md)
 - Client & Server certificates
 - User access tokens versus application access tokens 
 
