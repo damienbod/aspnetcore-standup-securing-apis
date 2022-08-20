@@ -8,7 +8,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
   - Delegated APIs (UI authentication)
   - Application APIs (no user)
   - On behalf of flow
-  - Using certificates to protect APIs
+  - APIs protected with Client/server certificate authentication
 - Azure Continuous access & continuous access evaluation protected APIs
 - General API topics
   - Mixing auth, no auth APIs in an application
@@ -51,7 +51,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 - Microsoft Identity Platform
 
-## Using certificates to protect APIs
+## APIs protected with Client/server certificate authentication
 
 - using a client/server certificates
 - mtls and the access token
