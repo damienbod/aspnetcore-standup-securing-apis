@@ -35,7 +35,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 - [API security using introspection](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/api_introspection.md)
   - Logout with the revocation endpoint
 - API security using cookies
-  - BFF Backend for frontend
+  - [BFF Backend for frontend](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/api_cookies.md)
   - Reverse proxy
 
 ## Application APIs (no user)
