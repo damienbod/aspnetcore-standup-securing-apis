@@ -14,6 +14,14 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 - Using certificates to protect APIs
 - Legacy, unsecure flows
 
+# Protecting APIs Authorization Overview
+
+- JWT Bearer Tokens
+- [Introspection (Stateful)](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/api_introspection.md)
+- Cookies
+- Client & Server certificates
+- User access tokens versus application access tokens 
+
 ## Delegated APIs (UI authentication)
 
 - API security using JWT access tokens
@@ -65,16 +73,6 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 - What about SAS?
 - What about username & password to get an access token?
-
-
-# Protecting APIs
-
-- JWT Bearer Tokens
-- [Introspection](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/api_introspection.md)
-- Cookies
-- User access tokens versus application access tokens 
-
-
 
 
 # Examples identity provider clients:
