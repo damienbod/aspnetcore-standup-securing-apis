@@ -16,32 +16,32 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 ## Delegated APIs (UI authentication)
 
-	- API security using JWT access tokens
-	  - No logout possible
-	- [API security using introspection](https://github.com/damienbod/spnetcore-standup-securing-apis/blob/main/images/api_introspection.md)
-	  - Logout with the revocation endpoint
-	- API security using cookies
-	  - BFF Backend for frontend
-	  - Reverse proxy
+- API security using JWT access tokens
+  - No logout possible
+- [API security using introspection](https://github.com/damienbod/spnetcore-standup-securing-apis/blob/main/images/api_introspection.md)
+  - Logout with the revocation endpoint
+- API security using cookies
+  - BFF Backend for frontend
+  - Reverse proxy
 
   
 ## Application APIs (no user)
 
-	- [OAuth2 Resource Owner Credentials Flow](https://github.com/damienbod/spnetcore-standup-securing-apis/blob/main/images/Resource%20Owner%20Credentials%20Flow.md)
-	- Microsoft Identity using application tokens
-	  - [Azure Managed Identities](https://github.com/damienbod/spnetcore-standup-securing-apis/blob/main/images/managed-identities.md)
-	  - secrets
-	  - certificates with client assertions
-	- Microsoft Identity Platform using Managed Identities
+- [OAuth2 Resource Owner Credentials Flow](https://github.com/damienbod/spnetcore-standup-securing-apis/blob/main/images/Resource%20Owner%20Credentials%20Flow.md)
+- Microsoft Identity using application tokens
+  - [Azure Managed Identities](https://github.com/damienbod/spnetcore-standup-securing-apis/blob/main/images/managed-identities.md)
+  - secrets
+  - certificates with client assertions
+- Microsoft Identity Platform using Managed Identities
 
 ## On behalf of flow
-  
-    - Microsoft Identity Platform
-	
+
+- Microsoft Identity Platform
+
 ## Microsoft Identity Platform CAE APIs
 
-	- Step up using CAE
-	- Graph / Office CAE
+- Step up using CAE
+- Graph / Office CAE
 
 ## Mixing auth, no auth APIs in an application
 
@@ -49,20 +49,20 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 ## Using multiple IDPs in an API service
 
-    - Schemes
-	- Policies
+- Schemes
+- Policies
 
 ## Mixing UIs and APIs in an application
 
-    - Schemes
-	
+- Schemes
+
 ## Using certificates to protect APIs
-  
-    - using a client/server certificates
-	- mtls and the access token
-	
+
+- using a client/server certificates
+- mtls and the access token
+
 ## Legacy, unsecure flows
-	
+
 - What about SAS?
 - What about username & password to get an access token?
 
