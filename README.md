@@ -222,3 +222,11 @@ https://github.com/swiss-ssi-group
 ## Azure Functions security
 
 https://github.com/damienbod/AzureFunctionsSecurity
+
+## Certification authentication
+
+https://docs.microsoft.com/en-us/aspnet/core/security/authentication/certauth
+
+https://docs.microsoft.com/en-us/aspnet/core/grpc/authn-and-authz#client-certificate-authentication
+
+https://www.rfc-editor.org/rfc/rfc5246
