@@ -229,4 +229,8 @@ https://docs.microsoft.com/en-us/aspnet/core/security/authentication/certauth
 
 https://docs.microsoft.com/en-us/aspnet/core/grpc/authn-and-authz#client-certificate-authentication
 
+https://github.com/damienbod/AspNetCoreCertificates/tree/main/examplesUsingCertificateAuthentication/AzureCertAuth
+
+https://damienbod.com/2022/02/07/using-blazor-with-a-yarp-downstream-api-protected-using-certificate-authentication/
+
 https://www.rfc-editor.org/rfc/rfc5246

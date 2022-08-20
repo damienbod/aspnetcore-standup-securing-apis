@@ -1,13 +1,20 @@
-JWT Notes
+# id_tokens, access_tokens, refresh tokens
 
-Standards
+# Standards
 
-JWT JSON Web Token RFC 7519
-JWS JSON Web Signature RFC 7515
-JWE JSON Web Encryption RFC 7516
-JWK JSON Web Key RFC 7517 (Discovery endpoint)
+RFC 7519 JWT JSON Web Token 
+RFC 7515 JWS JSON Web Signature 
+RFC 7516 JWE JSON Web Encryption 
+RFC 7517 JWK JSON Web Key (Discovery endpoint)
+RFC 9068 JWT Profile for OAuth 2.0 Access tokens
+RFC 7009 [OAuth 2.0 Token Revocation](https://www.rfc-editor.org/rfc/rfc7009)
 
-# id_token
+# id tokens
+
+- only for the client, never intended or used by the API client.
+- disable alg=none in IDP, solution
+- don't use symmetric keys
+
 - iss
 - aud (client_id)
 - sub (user)
@@ -16,9 +23,21 @@ JWK JSON Web Key RFC 7517 (Discovery endpoint)
 
 - amr, acr, auth_time
 
-# access_token
+Azure: xms_cc claim for CAE, CA
 
-stateful, stateless
+# access tokens
+
+- 2 types: stateful and stateless
+- only for the API, never opened or used by the app client.
+- use introspection if possible
+- validate standard required claims
+- validate signature
+- disable alg=none in IDP, solution
+- don't use symmetric keys
+- use client assertion if possible
+- use revocation if possible on logout
+- On AAD, use CAE for azure services if possible
+- avoid SPAs on Azure due to full logout is required
 
 RFC 9068 JWT Profile for OAuth 2.0 Access tokens
 
@@ -28,14 +47,10 @@ iss, aud, sub, exp, iat, jti, client_id
 
 amr, acr, auth_time
 
-# access tokens 
+Azure: xms_cc claim for CAE, CA
 
-- use introspection if possible
-- validate standard required claims
-- validate signature
-- disable alg=none
-- don't use symmetric keys
-- use client assertion if possible
-- use revocation if possible on logout
-- On AAD, use CAE for azure services if possible
-- avoid SPAs on Azure due to full logout is required
+# refresh tokens
+
+- long lived
+- used to refresh the session
+- dangerous to lose...
