@@ -69,10 +69,11 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 - using a client/server certificates
 - mtls and the access token
 
-## Legacy, unsecure flows
+## Legacy, unsecure flows, rely on the network security
 
 - What about SAS?
 - What about username & password to get an access token?
+- Firewalls, Gateways?
 
 
 # Examples identity provider clients:
