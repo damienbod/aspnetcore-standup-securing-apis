@@ -18,16 +18,18 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 	- API security using JWT access tokens
 	  - No logout possible
-	- API security using introspection
+	- [API security using introspection](https://github.com/damienbod/spnetcore-standup-securing-apis/blob/main/images/api_introspection.md)
 	  - Logout with the revocation endpoint
 	- API security using cookies
 	  - BFF Backend for frontend
 	  - Reverse proxy
+
   
 ## Application APIs (no user)
 
-	- OAuth2 client credentials flow
+	- [OAuth2 Resource Owner Credentials Flow](https://github.com/damienbod/spnetcore-standup-securing-apis/blob/main/images/Resource%20Owner%20Credentials%20Flow.md)
 	- Microsoft Identity using application tokens
+	  - [Azure Managed Identities](https://github.com/damienbod/spnetcore-standup-securing-apis/blob/main/images/managed-identities.md)
 	  - secrets
 	  - certificates with client assertions
 	- Microsoft Identity Platform using Managed Identities
