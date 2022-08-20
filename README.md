@@ -3,16 +3,19 @@
 
 Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
-- Delegated APIs (UI authentication)
-- Application APIs (no user)
-- On behalf of flow
+- Protecting APIs Authorization Overview
+  - Delegated APIs (UI authentication)
+  - Application APIs (no user)
+  - On behalf of flow
+  - Using certificates to protect APIs
 - Microsoft Identity Platform CAE APIs
-- Mixing auth, no auth APIs in an application
-- Swagger auth
-- Using multiple IDPs in an API service
-- Mixing UIs and APIs in an application
-- Using certificates to protect APIs
-- Legacy, unsecure flows
+- General API topics
+  - Mixing auth, no auth APIs in an application
+  - Swagger auth
+  - Using multiple IDPs in an API service
+  - Mixing UIs and APIs in an application
+  - SignalR, web sockets
+- Legacy auth, unsecure flows, network protection
 
 # Protecting APIs Authorization Overview
 
@@ -32,7 +35,6 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
   - BFF Backend for frontend
   - Reverse proxy
 
-  
 ## Application APIs (no user)
 
 - [OAuth2 Resource Owner Credentials Flow](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/Resource%20Owner%20Credentials%20Flow.md)
@@ -46,10 +48,17 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 - Microsoft Identity Platform
 
-## Microsoft Identity Platform CAE APIs
+## Using certificates to protect APIs
+
+- using a client/server certificates
+- mtls and the access token
+
+# Microsoft Identity Platform CAE APIs
 
 - Step up using CAE
 - Graph / Office CAE
+
+# General API topics
 
 ## Mixing auth, no auth APIs in an application
 
@@ -64,17 +73,13 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 - Schemes
 
-## Using certificates to protect APIs
+## SignalR, web sockets
 
-- using a client/server certificates
-- mtls and the access token
-
-## Legacy, unsecure flows, rely on the network security
+# Legacy, unsecure flows, rely on the network security
 
 - What about SAS?
 - What about username & password to get an access token?
 - Firewalls, Gateways?
-
 
 # Examples identity provider clients:
 
