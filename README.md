@@ -4,6 +4,7 @@
 Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 - Protecting APIs Authorization Overview
+  - An overview
   - Delegated APIs (UI authentication)
   - Application APIs (no user)
   - On behalf of flow
