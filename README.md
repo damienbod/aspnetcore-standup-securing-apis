@@ -12,7 +12,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 - Azure Continuous access & continuous access evaluation protected APIs
 - General API topics
   - Mixing auth, no auth APIs in an application
-  - Swagger auth
+  - Using Swagger with protected APIs
   - Using multiple IDPs in an API service
   - Mixing UIs and APIs in an application
   - SignalR, web sockets
@@ -66,7 +66,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 ## Mixing auth, no auth APIs in an application
 
-## Swagger auth
+## Using Swagger with protected APIs
 
 ## Using multiple IDPs in an API service
 
