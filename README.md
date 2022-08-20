@@ -80,7 +80,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 ## SignalR, web sockets
 
 - Web sockets protected with cookies
-- Web sockets protectedd with tokens
+- Web sockets protected with tokens
 
 # Legacy, unsecure flows, rely on the network security
 
