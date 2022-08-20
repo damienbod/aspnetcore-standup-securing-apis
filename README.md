@@ -1,6 +1,8 @@
 
 # ASP.NET Core Securing APIs
 
+Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
+
 - Delegated APIs (UI authentication)
 - Application APIs (no user)
 - On behalf of flow
