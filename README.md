@@ -22,7 +22,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 [About tokens](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/tokens.md)
 
-- JWT Bearer Tokens
+- [JWT access tokens](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/self-contained-tokens-cc.md)
 - [Introspection (Stateful)](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/api_introspection.md)
 - [Cookies](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/api_cookies.md)
 - Client/server certificate authentication
@@ -30,7 +30,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 ## Delegated APIs (UI authentication)
 
-- API security using JWT access tokens
+- API security using JWT access tokens 
   - No logout possible
 - [API security using introspection](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/api_introspection.md)
   - Logout with the revocation endpoint
