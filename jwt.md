@@ -27,3 +27,15 @@ RFC 9068 JWT Profile for OAuth 2.0 Access tokens
 iss, aud, sub, exp, iat, jti, client_id
 
 amr, acr, auth_time
+
+# access tokens 
+
+- use introspection if possible
+- validate standard required claims
+- validate signature
+- disable alg=none
+- don't use symmetric keys
+- use client assertion if possible
+- use revocation if possible on logout
+- On AAD, use CAE for azure services if possible
+- avoid SPAs on Azure due to full logout is required
