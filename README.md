@@ -18,7 +18,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 - API security using JWT access tokens
   - No logout possible
-- [API security using introspection](https://github.com/damienbod/spnetcore-standup-securing-apis/blob/main/images/api_introspection.md)
+- [API security using introspection](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/api_introspection.md)
   - Logout with the revocation endpoint
 - API security using cookies
   - BFF Backend for frontend
@@ -27,9 +27,9 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
   
 ## Application APIs (no user)
 
-- [OAuth2 Resource Owner Credentials Flow](https://github.com/damienbod/spnetcore-standup-securing-apis/blob/main/images/Resource%20Owner%20Credentials%20Flow.md)
+- [OAuth2 Resource Owner Credentials Flow](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/Resource%20Owner%20Credentials%20Flow.md)
 - Microsoft Identity using application tokens
-  - [Azure Managed Identities](https://github.com/damienbod/spnetcore-standup-securing-apis/blob/main/images/managed-identities.md)
+  - [Azure Managed Identities](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/managed-identities.md)
   - secrets
   - certificates with client assertions
 - Microsoft Identity Platform using Managed Identities
@@ -70,7 +70,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 # Protecting APIs
 
 - JWT Bearer Tokens
-- [Introspection](https://github.com/damienbod/aspnetcore-standup-authn-authz/blob/main/images/api_introspection.md)
+- [Introspection](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/api_introspection.md)
 - Cookies
 - User access tokens versus application access tokens 
 
