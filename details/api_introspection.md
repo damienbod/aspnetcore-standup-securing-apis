@@ -1,2 +1,2 @@
 
-![Introspection](https://github.com/damienbod/aspnetcore-standup-authn-authz/blob/main/images/api_introspection.png)
+![Introspection](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/api_introspection.png)
