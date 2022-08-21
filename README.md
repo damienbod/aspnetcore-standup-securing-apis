@@ -16,6 +16,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
   - Using multiple IDPs in an API service
   - Mixing UIs and APIs in an application
   - SignalR, web sockets
+  - Testing secure APIs
 - Legacy auth, unsecure flows, network protection
 
 # Protecting APIs Authorization Overview
