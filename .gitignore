@@ -348,3 +348,11 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/repos/ApiJwtWithTwoSts.lnk
+/repos/AspNetCoreAzureADCAE.lnk
+/repos/AspNetCoreCertificates.lnk
+/repos/AspNetCoreIdentityFido2Mfa.lnk
+/repos/AspNetCoreOpeniddict.lnk
+/repos/AzureAD-Auth-MyUI-with-MyAPI.lnk
+/repos/AzureADAuthRazorUiServiceApiCertificate.lnk
+/repos/SeparatingApisPerSecurityLevel.lnk
