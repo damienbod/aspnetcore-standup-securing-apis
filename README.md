@@ -68,6 +68,8 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 ## Using Swagger with protected APIs
 
+[Swagger with tokens](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/swagger.md)
+
 ## Using multiple IDPs in an API service
 
 - Schemes
@@ -81,6 +83,13 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 - Web sockets protected with cookies
 - Web sockets protected with tokens
+
+## Testing secure APIs
+
+- Testing application APIs
+- Testing delegated APIs
+  - UI test tools
+
 
 # Legacy, unsecure flows, rely on the network security
 
