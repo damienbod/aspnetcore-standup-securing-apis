@@ -31,7 +31,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 ## Delegated APIs (UI authentication)
 
-- API security using JWT access tokens 
+- [API security using JWT access tokens](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/delegated-tokens.md)
   - No logout possible
 - [API security using introspection](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/api_introspection.md)
   - Logout with the revocation endpoint
