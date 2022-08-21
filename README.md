@@ -45,7 +45,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 - Microsoft Identity using application tokens
   - [Azure Managed Identities](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/managed-identities.md)
   - secrets
-  - certificates with client assertions
+  - [certificates with client assertions](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/msal-client_assertions.md)
 - Microsoft Identity Platform using Managed Identities
 
 ## On behalf of flow
