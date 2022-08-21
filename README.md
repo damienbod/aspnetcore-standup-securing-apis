@@ -73,12 +73,10 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 ## Using multiple IDPs in an API service
 
-- Schemes
-- Policies
+[Using multiple IDPs in APIs](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/apis-multiple-idps.md)
 
 ## Mixing UIs and APIs in an application
 
-- Schemes
 
 ## SignalR, web sockets
 
