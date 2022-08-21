@@ -77,6 +77,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 ## Mixing UIs and APIs in an application
 
+[Mixing UI with API](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/ui-mixed-api.md)
 
 ## SignalR, web sockets
 
