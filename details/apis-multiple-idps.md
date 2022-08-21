@@ -1,4 +1,6 @@
 
+![multiple APIs same IDP](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/multiple-apis.png)
+
 # Using mutliple identity providers in APIs
 
 ```csharp
