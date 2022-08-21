@@ -10,7 +10,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
   - On behalf of flow
   - APIs protected with Client/server certificate authentication
 - Azure Continuous access & continuous access evaluation protected APIs
-- General API topics
+- General API security topics
   - Mixing auth, no auth APIs in an application
   - Using Swagger with protected APIs
   - Using multiple IDPs in an API service
@@ -63,7 +63,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 - Step up using Azure continuous access
 - Continuous access evaluation (CAE) with Graph / Office APIs
 
-# General API topics
+# General API security topics
 
 ## Mixing auth, no auth APIs in an application
 
