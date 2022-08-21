@@ -17,7 +17,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
   - Mixing UIs and APIs in an application
   - SignalR, web sockets
   - Testing secure APIs
-- Legacy auth, unsecure flows, network protection
+- Legacy auth, unsecure flows, using network security
 
 # Protecting APIs Authorization Overview
 
@@ -92,7 +92,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
   - UI test tools
 
 
-# Legacy, unsecure flows, rely on the network security
+# Legacy, unsecure flows, using network security
 
 - What about SAS?
 - What about username & password to get an access token?
