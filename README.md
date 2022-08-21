@@ -93,7 +93,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 # Legacy, unsecure flows, using network security
 
-- What about SAS?
+- What about shared access signature (SAS) tokens?
 - What about username & password to get an access token?
 - Firewalls, Gateways?
 
