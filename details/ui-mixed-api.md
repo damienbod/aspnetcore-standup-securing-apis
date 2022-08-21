@@ -85,3 +85,5 @@ public class DirectApiController : ControllerBase
 # Links
 
 https://github.com/damienbod/AspNetCore6Experiments/blob/main/BlazorBffAzureADWithApi/Server/Program.cs
+
+https://damienbod.com/2021/10/04/implement-a-secure-api-and-a-blazor-app-in-the-same-asp-net-core-project-with-azure-ad-authentication/
