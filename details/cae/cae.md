@@ -15,6 +15,10 @@
 
 ## Setup Continuous access auth contexts
 
+https://github.com/damienbod/AspNetCoreAzureADCAE/blob/main/CaeAdministrationTool/CAE/CAEAdminServices.cs
+
+https://github.com/damienbod/AspNetCoreAzureADCAE/blob/main/CaeAdministrationTool/CAE/GraphAuthContextAdmin.cs
+
 ![CA with Auth Context and access token](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/cae/azuread_cae_01.png)
 
 ## Setup Continuous access policy
@@ -33,11 +37,13 @@
 
 ## Use in applications
 
-```csharp
-```
+access token:
 
-```csharp
-```
+https://github.com/damienbod/AspNetCoreAzureADCAE/blob/main/CaeApi/CaeApi/CAE/CaeClaimsChallengeService.cs
+
+id token:
+
+https://github.com/damienbod/AspNetCoreAzureADCAE/blob/main/RazorCaeStandalone/Cae/CaeClaimsChallengeService.cs
 
 # Links
 
