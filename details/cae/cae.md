@@ -15,7 +15,11 @@
 
 ## Setup Continuous access auth contexts
 
+![CA with Auth Context and access token](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/cae/azuread_cae_01.png)
+
 ## Setup Continuous access policy
+
+![CA with Auth Context and access token](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/cae/azuread_cae_03.png)
 
 ## Setup Continuous Azure App registrations
 
