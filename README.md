@@ -65,6 +65,8 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 ## Mixing auth, no auth APIs in an application
 
+[Mixing auth, no auth APIs](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/cae/auth-no-auth.md)
+
 ## Using Swagger with protected APIs
 
 [Swagger with tokens](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/swagger.md)
