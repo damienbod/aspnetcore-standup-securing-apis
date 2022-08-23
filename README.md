@@ -54,8 +54,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 ## APIs protected with Client/server certificate authentication
 
-- using a client/server certificates
-- mtls and the access token
+[Certificate authentication](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/cert-auth/cert-auth.md)
 
 # Azure Continuous access & continuous access evaluation protected APIs
 
