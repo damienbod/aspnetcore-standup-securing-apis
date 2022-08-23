@@ -42,15 +42,15 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 ## Application APIs (no user)
 
 - [OAuth2 Resource Owner Credentials Flow](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/Resource%20Owner%20Credentials%20Flow.md)
-- Microsoft Identity using application tokens
+- Microsoft Identity Platform
   - [Azure Managed Identities](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/managed-identities.md)
   - secrets
   - [certificates with client assertions](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/msal-client_assertions.md)
-- Microsoft Identity Platform using Managed Identities
 
 ## On behalf of flow
 
-- Microsoft Identity Platform
+- [Microsoft Identity Platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow#protocol-diagram)
+
 
 ## APIs protected with Client/server certificate authentication
 
