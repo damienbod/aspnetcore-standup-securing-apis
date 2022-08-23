@@ -26,6 +26,7 @@ services.AddRazorPages().AddMvcOptions(options =>
 {
     //var policy = new AuthorizationPolicyBuilder()
     //    .RequireAuthenticatedUser()
+	//    .AddAuthenticationSchemes(CookieAuthenticationDefaults.AuthenticationScheme, "AzureAdMyApi", "OpenIdConnect")   
     //    .Build();
     //options.Filters.Add(new AuthorizeFilter(policy));
 }).AddMicrosoftIdentityUI();
