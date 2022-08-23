@@ -54,29 +54,29 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 ## APIs protected with Client/server certificate authentication
 
-[Certificate authentication](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/cert-auth/cert-auth.md)
+- [Certificate authentication](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/cert-auth/cert-auth.md)
 
 # Azure Continuous access & continuous access evaluation protected APIs
 
-[CA & CAE](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/cae/cae.md)
+- [CA & CAE](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/cae/cae.md)
 
 # General API security topics
 
 ## Mixing auth, no auth APIs in an application
 
-[Mixing auth, no auth APIs](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/auth-no-auth.md)
+- [Mixing auth, no auth APIs](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/auth-no-auth.md)
 
 ## Using Swagger with protected APIs
 
-[Swagger with tokens](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/swagger.md)
+- [Swagger with tokens](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/swagger.md)
 
 ## Using multiple IDPs in an API service
 
-[Using multiple IDPs in APIs](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/apis-multiple-idps.md)
+- [Using multiple IDPs in APIs](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/apis-multiple-idps.md)
 
 ## Mixing UIs and APIs in an application
 
-[Mixing UI with API](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/ui-mixed-api.md)
+- [Mixing UI with API](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/ui-mixed-api.md)
 
 ## SignalR, web sockets
 
