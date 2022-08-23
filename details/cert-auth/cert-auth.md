@@ -8,6 +8,7 @@
 ![Reverse-proxy](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/Reverse-proxy.png)
 
 ## API service setup for Azure App service
+
 ```csharp
 services.AddSingleton<MyCertificateValidationService>();
 
@@ -71,28 +72,21 @@ services.AddAuthentication(CertificateAuthenticationDefaults.AuthenticationSchem
 	});
 ```
 
+## Using the middleware
+
 ```csharp
-public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+
+app.UseRouting();
+
+// Can be added for local dev, or other host providers
+//app.UseCertificateForwarding();
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.UseEndpoints(endpoints =>
 {
-	if (env.IsDevelopment())
-	{
-		app.UseDeveloperExceptionPage();
-	}
-
-	app.UseHttpsRedirection();
-
-	app.UseRouting();
-
-    // Can be added for local dev, or other host providers
-	//app.UseCertificateForwarding();
-	app.UseAuthentication();
-	app.UseAuthorization();
-
-	app.UseEndpoints(endpoints =>
-	{
-		endpoints.MapControllers();
-	});
-}
+	endpoints.MapControllers();
+});
 ```
 
 ```csharp
