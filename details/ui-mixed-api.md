@@ -19,9 +19,6 @@ services.AddAuthentication(options =>
 services.AddAuthentication("MyJwtApiScheme")
     .AddMicrosoftIdentityWebApi(configuration, "AzureAdMyApi", "MyJwtApiScheme");
 
-services.AddControllersWithViews(options =>
-    options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute()));
-
 services.AddRazorPages().AddMvcOptions(options =>
 {
     //var policy = new AuthorizationPolicyBuilder()
