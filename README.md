@@ -58,10 +58,17 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 # Azure Continuous access & continuous access evaluation protected APIs
 
-- [CA & CAE](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/cae/cae.md)
+CA & CAE](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/cae/cae.md)
 
 # General API security topics
 
+- Mixing auth, no auth APIs in an application
+- Using Swagger with protected APIs
+- Using multiple IDPs in an API service
+- Mixing UIs and APIs in an application
+- SignalR, web sockets
+- Testing secure APIs
+  
 ## Mixing auth, no auth APIs in an application
 
 - [Mixing auth, no auth APIs](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/auth-no-auth.md)
