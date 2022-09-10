@@ -58,7 +58,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 # Azure Continuous access & continuous access evaluation protected APIs
 
-[CA & CAE](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/cae/cae.md)
+- [CA & CAE](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/cae/cae.md)
 
 # General API security topics
   
