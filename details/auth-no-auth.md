@@ -7,6 +7,8 @@ services.AddControllers(options =>
 {
 	var policy = new AuthorizationPolicyBuilder()
 		.RequireAuthenticatedUser()
+		 // if using multiple schemes, you need to define them.
+		 //    .AddAuthenticationSchemes(CookieAuthenticationDefaults.AuthenticationScheme, "MyJwtApiScheme", "OpenIdConnect")  
 		.Build();
 	options.Filters.Add(new AuthorizeFilter(policy));
 });
