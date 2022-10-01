@@ -3,9 +3,44 @@
 # Certificates with client assertions
 
 ```csharp
+IConfidentialClientApplication app = ConfidentialClientApplicationBuilder
+	.Create(_configuration["CallApi:ClientId"])
+		.WithAuthority(new Uri(authority))
+		.WithCertificate(cert)
+		.Build();
 ```
 
+Check for azpacr == 2
+
 ```csharp
+public void ConfigureServices(IServiceCollection services)
+{
+	JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
+
+	services.AddSingleton<IAuthorizationHandler, HasServiceApiRoleHandler>();
+
+	services.AddMicrosoftIdentityWebApiAuthentication(Configuration);
+
+	services.AddAuthorization(options =>
+	{
+		options.AddPolicy("ValidateAccessTokenPolicy", validateAccessTokenPolicy =>
+		{
+			validateAccessTokenPolicy.Requirements.Add(new HasServiceApiRoleRequirement());
+
+			// Validate ClientId from token
+			validateAccessTokenPolicy.RequireClaim("azp", Configuration["AzureAd:ClientId"]);
+
+			// only allow tokens which used "Private key JWT Client authentication"
+			// // https://docs.microsoft.com/en-us/azure/active-directory/develop/access-tokens
+			// Indicates how the client was authenticated. For a public client, the value is "0". 
+			// If client ID and client secret are used, the value is "1". 
+			// If a client certificate was used for authentication, the value is "2".
+			validateAccessTokenPolicy.RequireClaim("azpacr", "2");
+		});
+	});
+
+	services.AddControllers();
+}
 ```
 
 
