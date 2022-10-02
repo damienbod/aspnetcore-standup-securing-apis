@@ -50,6 +50,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 ## On behalf of flow
 
 - [Microsoft Identity Platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow#protocol-diagram)
+- [AAD with OpenIddict downstream API](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/obo_aad_openiddict.md)
 
 
 ## APIs protected with Client/server certificate authentication
