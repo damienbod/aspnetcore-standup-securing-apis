@@ -16,3 +16,7 @@ https://github.com/damienbod/AspNetCoreCertificates
 https://github.com/damienbod/ApiJwtWithTwoSts
 
 https://github.com/damienbod/AspNetCoreIdentityFido2Mfa
+
+https://github.com/damienbod/AspNetCoreApiAuthMultiIdentityProvider
+
+https://github.com/damienbod/OnBehalfFlowOidcDownstreamApi
