@@ -246,6 +246,8 @@ https://github.com/damienbod/Blazor.BFF.AzureB2C.Template
 
 https://github.com/DuendeSoftware/BFF
 
+https://github.com/isolutionsag/aspnet-react-bff-proxy-example
+
 ## Session protection
 
 https://github.com/andrewlock/NetEscapades.AspNetCore.SecurityHeaders
