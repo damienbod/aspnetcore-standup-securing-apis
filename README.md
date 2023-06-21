@@ -8,6 +8,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
   - Delegated APIs (UI authentication)
   - Application APIs (no user)
   - On behalf of flow
+  - OAuth 2.0 Token Exchange OIDC Downstream API
   - APIs protected with Client/server certificate authentication
 - Azure Continuous access & continuous access evaluation protected APIs
 - General API security topics
@@ -52,6 +53,9 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 - [Microsoft Identity Platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow#protocol-diagram)
 - [AAD with OpenIddict downstream API](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/obo_aad_openiddict.md)
 
+## OAuth 2.0 Token Exchange
+
+- [OIDC with Downstream API](https://github.com/damienbod/OAuthGrantExchangeOidcDownstreamApi)
 
 ## APIs protected with Client/server certificate authentication
 
