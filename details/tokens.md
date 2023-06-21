@@ -35,7 +35,7 @@
 - use client assertion if possible
 - use revocation if possible on logout
 - On AAD, use CAE for azure services if possible
-- avoid SPAs on Azure due to full logout is required
+- avoid SPAs on Azure due to full logout trusted backend required for this
 
 ## claims
 
