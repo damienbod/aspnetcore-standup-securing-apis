@@ -10,6 +10,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
   - On behalf of flow
   - OAuth 2.0 Token Exchange OIDC Downstream API
   - APIs protected with Client/server certificate authentication
+  - Client binding, MTLS, DPOP, FAPI
 - Azure Continuous access & continuous access evaluation protected APIs
 - General API security topics
   - Mixing auth, no auth APIs in an application
@@ -18,7 +19,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
   - Mixing UIs and APIs in an application
   - SignalR, web sockets
   - Testing secure APIs
-- Legacy auth, unsecure flows, using network security
+- Legacy auth, unsecure flows, using network security, proxies
 
 # Protecting APIs Authorization Overview
 
