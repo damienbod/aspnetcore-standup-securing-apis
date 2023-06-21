@@ -64,6 +64,12 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 - [Certificate authentication](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/cert-auth/cert-auth.md)
 
+## Client binding, MTLS, DPOP, FAPI
+
+- MTLS
+- DPOP
+- FAPI
+
 # Azure Continuous access & continuous access evaluation protected APIs
 
 - [CA & CAE](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/cae/cae.md)
@@ -99,12 +105,20 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 - Testing application APIs
 - Testing delegated APIs
   - UI test tools
+  
+## Securing Web hooks
 
 # Legacy, unsecure flows, using network security
 
 - What about shared access signature (SAS) tokens?
 - What about username & password to get an access token?
-- Firewalls, Gateways?
+- Firewalls, HTTPS termination?
+
+# Proxies
+
+- Yarp Reverse Proxy
+- dev Proxies
+- Gateways
 
 # Examples identity provider clients:
 
