@@ -75,6 +75,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 - [Using multiple IDPs in APIs 01](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/apis-multiple-idps.md)
 - [Using multiple IDPs in APIs 02](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/apis-multiple-idps_02.md)
+- [Using multiple AAD IDPs in APIs 03](https://github.com/damienbod/AspNetCoreApiAuthMultiIdentityProvider/blob/main/AadMultiApis/MultiAADWebApi/Startup.cs)
 
 ## Mixing UIs and APIs in an application
 
@@ -90,7 +91,6 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 - Testing application APIs
 - Testing delegated APIs
   - UI test tools
-
 
 # Legacy, unsecure flows, using network security
 
