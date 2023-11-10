@@ -67,7 +67,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 ## Client binding, MTLS, DPOP, FAPI
 
 - MTLS
-- DPOP
+- [Securing APIs using ASP.NET Core and OAuth 2.0 DPoP](https://damienbod.com/2023/08/14/securing-apis-using-asp-net-core-and-oauth-2-0-dpop/)
 - FAPI
 
 # Azure Continuous access & continuous access evaluation protected APIs
