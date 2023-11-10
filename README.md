@@ -301,3 +301,7 @@ https://www.rfc-editor.org/rfc/rfc5246
 [OAuth 2.0 Token Exchange RFC 8693](https://datatracker.ietf.org/doc/html/rfc8693)
 
 [OAuth 2.0 Pushed Authorization Requests RFC 9126](https://datatracker.ietf.org/doc/html/rfc9126)
+
+[The OAuth 2.0 Authorization Framework: JWT-Secured Authorization Request (JAR) RFC 9101](https://datatracker.ietf.org/doc/rfc9101/)
+
+[OAuth 2.0 Rich Authorization Requests RFC 9396](https://datatracker.ietf.org/doc/html/rfc9396)
