@@ -286,7 +286,7 @@ https://damienbod.com/2022/02/07/using-blazor-with-a-yarp-downstream-api-protect
 
 https://www.rfc-editor.org/rfc/rfc5246
 
-## OUATH, OpenID Standards RFCs, drafts
+## OAUTH RFCs and draft standards
 
 [OAuth 2.0 for Browser-Based Apps draft](https://datatracker.ietf.org/doc/draft-ietf-oauth-browser-based-apps/)
   
