@@ -285,3 +285,13 @@ https://github.com/damienbod/AspNetCoreCertificates/tree/main/examplesUsingCerti
 https://damienbod.com/2022/02/07/using-blazor-with-a-yarp-downstream-api-protected-using-certificate-authentication/
 
 https://www.rfc-editor.org/rfc/rfc5246
+
+## OUATH, OpenID Standards RFCs, drafts
+
+https://datatracker.ietf.org/doc/draft-ietf-oauth-browser-based-apps/
+  
+https://datatracker.ietf.org/doc/html/draft-ietf-oauth-security-topics
+
+https://datatracker.ietf.org/doc/draft-ietf-oauth-cross-device-security/
+
+[OAuth 2.0 Demonstrating Proof of Possession (DPoP) RFC 9449](https://datatracker.ietf.org/doc/html/rfc9449)
