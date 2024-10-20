@@ -86,6 +86,7 @@ Part 1 see: https://github.com/damienbod/aspnetcore-standup-authn-authz
 
 ## Using multiple IDPs in an API service
 
+- [Multliple APIs simple](https://github.com/damienbod/ApiJwtWithTwoSts/blob/main/WebApi/StartupExtensions.cs)
 - [Using multiple IDPs in APIs 01](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/apis-multiple-idps.md)
 - [Using multiple IDPs in APIs 02 ForwardDefaultSelector](https://github.com/damienbod/aspnetcore-standup-securing-apis/blob/main/details/apis-multiple-idps_02.md)
 - [Using multiple IDPs in APIs 03 Entra IDs](https://github.com/damienbod/AspNetCoreApiAuthMultiIdentityProvider/blob/main/MicrosoftEntraIDMultiApis/MultiMicrosoftEntraIDWebApi/HostingExtensions.cs)
